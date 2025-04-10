@@ -33,7 +33,7 @@ const Sidebar = () => {
   ]
 
   return (
-    <div className="flex flex-col h-full bg-black text-white w-[120px] md:w-[200px] py-4">
+    <div className="flex-col h-full bg-black text-white w-[120px] hidden md:flex md:w-[200px] py-4">
       <div className="px-4 py-2 mb-6">
         <div className="flex items-center">
         <div className="bg-yellow-500 rounded-full p-2 w-10 h-10 flex items-center justify-center mb-8">
